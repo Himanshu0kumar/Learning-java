@@ -1,0 +1,34 @@
+
+To know more referance from GFG :- https://www.geeksforgeeks.org/constructors-in-java/?ref=lbp
+
+What is constructors ? 
+
+The constructors are the special type of the method / function . which have neither any return type nor any datatype . 
+it is called when object is created and it is use to set the initial value for object attribute.
+
+How it is diffrenet from function ? 
+
+it does not have any return type while function have.
+it is called once when object is created while function can be call any times .
+it must have the same of the class while function have diffrenet name .
+
+Types of Constructors in Java ? 
+
+there are three types of constructors in java 
+[1]. Default constructors
+[2]. Parameterized constructors
+[3]. copy constructors 
+
+1. Default Constructor in Java
+
+A constructor that has no parameters is known as default the constructor. A default constructor is invisible. And if we write a constructor with no arguments, the compiler does not create a default constructor. It is taken out. It is being overloaded and called a parameterized constructor. The default constructor changed into the parameterized constructor. But Parameterized constructor can’t change the default constructor. The default constructor can be implicit or explicit. If we don’t define explicitly, we get an implicit default constructor. If we manually write a constructor, the implicit one is overridded.
+
+2. Parameterized Constructor in Java
+
+A constructor that has parameters is known as parameterized constructor. If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+
+
+3. Copy Constructor in Java
+
+Unlike other constructors copy constructor is passed with another object which copies the data available from the passed object to the newly created object.
+
